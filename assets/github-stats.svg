@@ -1,0 +1,27 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-labelledby="stats-title stats-desc">
+  <title id="stats-title">Estatísticas do GitHub de Boaz Carvalho</title>
+  <desc id="stats-desc">4 repositórios públicos, 4 seguidores e 0 estrelas recebidas.</desc>
+  <rect x="1" y="1" width="493" height="218" rx="16" fill="#111827" stroke="#2a3548" stroke-width="2"/>
+  <path d="M24 55h447" stroke="#2a3548"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text id="stats-title-visible" x="25" y="37" fill="#e8edf6" font-size="17" font-weight="650">Estatísticas do GitHub</text>
+    <text x="470" y="37" fill="#55c7e8" font-size="12" text-anchor="end">@boazcarv</text>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="28" y="117" fill="#f3f6fc" font-size="32" font-weight="700">4</text>
+    <text x="28" y="148" fill="#9aa8bd" font-size="13"><tspan x="28" dy="0">Repositórios</tspan><tspan x="28" dy="17">públicos</tspan></text>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="181" y="117" fill="#f3f6fc" font-size="32" font-weight="700">4</text>
+    <text x="181" y="148" fill="#9aa8bd" font-size="13"><tspan x="181" dy="0">Seguidores</tspan></text>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="334" y="117" fill="#f3f6fc" font-size="32" font-weight="700">0</text>
+    <text x="334" y="148" fill="#9aa8bd" font-size="13"><tspan x="334" dy="0">Estrelas</tspan><tspan x="334" dy="17">recebidas</tspan></text>
+  </g>
+  <path d="M28 182h439" stroke="#2a3548"/>
+  <path d="M28 182h74" stroke="#55c7e8" stroke-width="2"/>
+
+</svg>

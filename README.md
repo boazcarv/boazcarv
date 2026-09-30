@@ -110,12 +110,10 @@ e de **C++**, que me permitem atuar de forma full stack quando necessário.
 
 <div align="center">
 
-<a href="https://github.com/boazcarv">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=boazcarv&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub de Boaz Carvalho" />
-</a>
-<a href="https://github.com/boazcarv">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boazcarv&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas por Boaz Carvalho" />
-</a>
+<a href="https://github.com/boazcarv"><img width="49%" src="assets/github-stats.svg" alt="Estatísticas do GitHub de Boaz Carvalho" /></a>
+<a href="https://github.com/boazcarv"><img width="49%" src="assets/top-languages.svg" alt="Linguagens mais usadas por Boaz Carvalho" /></a>
+
+<sub>Cartões gerados com dados públicos do GitHub e atualizados diariamente por GitHub Actions.</sub>
 
 </div>
 

@@ -1,0 +1,43 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-labelledby="languages-title languages-desc">
+  <title id="languages-title">Linguagens mais usadas por Boaz Carvalho</title>
+  <desc id="languages-desc">Distribuição das linguagens por bytes de código nos repositórios públicos não derivados.</desc>
+  <rect x="1" y="1" width="493" height="218" rx="16" fill="#111827" stroke="#2a3548" stroke-width="2"/>
+  <path d="M24 55h447" stroke="#2a3548"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="25" y="37" fill="#e8edf6" font-size="17" font-weight="650">Linguagens mais usadas</text>
+    <text x="470" y="37" fill="#55c7e8" font-size="12" text-anchor="end">@boazcarv</text>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="27" y="82" fill="#dce4f0" font-size="12.5">Python</text>
+    <text x="468" y="82" fill="#9aa8bd" font-size="12" text-anchor="end">59.8%</text>
+    <rect x="27" y="89" width="441" height="5" rx="2.5" fill="#263247"/>
+    <rect x="27" y="89" width="245" height="5" rx="2.5" fill="#3572a5"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="27" y="109" fill="#dce4f0" font-size="12.5">HTML</text>
+    <text x="468" y="109" fill="#9aa8bd" font-size="12" text-anchor="end">18.9%</text>
+    <rect x="27" y="116" width="441" height="5" rx="2.5" fill="#263247"/>
+    <rect x="27" y="116" width="78" height="5" rx="2.5" fill="#e34c26"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="27" y="136" fill="#dce4f0" font-size="12.5">Jupyter Notebook</text>
+    <text x="468" y="136" fill="#9aa8bd" font-size="12" text-anchor="end">14.2%</text>
+    <rect x="27" y="143" width="441" height="5" rx="2.5" fill="#263247"/>
+    <rect x="27" y="143" width="58" height="5" rx="2.5" fill="#da5b0b"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="27" y="163" fill="#dce4f0" font-size="12.5">CSS</text>
+    <text x="468" y="163" fill="#9aa8bd" font-size="12" text-anchor="end">3.7%</text>
+    <rect x="27" y="170" width="441" height="5" rx="2.5" fill="#263247"/>
+    <rect x="27" y="170" width="15" height="5" rx="2.5" fill="#563d7c"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="27" y="190" fill="#dce4f0" font-size="12.5">TypeScript</text>
+    <text x="468" y="190" fill="#9aa8bd" font-size="12" text-anchor="end">3.3%</text>
+    <rect x="27" y="197" width="441" height="5" rx="2.5" fill="#263247"/>
+    <rect x="27" y="197" width="14" height="5" rx="2.5" fill="#3178c6"/>
+  </g>
+
+</svg>

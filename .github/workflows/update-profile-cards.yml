@@ -1,0 +1,38 @@
+name: Update profile stat cards
+
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+      - "scripts/update-profile-cards.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate stat cards
+        run: node scripts/update-profile-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-languages.svg
+          if git diff --cached --quiet; then
+            echo "Cards are already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh GitHub profile cards"
+          git push
